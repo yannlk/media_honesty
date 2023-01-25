@@ -5,8 +5,8 @@ import message
 import automation
 
 # initialize reddit connection
-reddit = praw.Reddit(client_id="PZRfEztVyHDCjhCrLSJZMA", client_secret="CZEVdpQ-9gesS_3uveav5UmEbxFJRA",
-                     username="media_honesty", password="100102Re", user_agent="Anti Propaganda, u/yolkyboii")
+reddit = praw.Reddit(client_id="", client_secret="",
+                     username="media_honesty", password="", user_agent="Anti Propaganda, u/yolkyboii")
 
 f = open("bias_reliability.csv")
 
